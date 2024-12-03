@@ -1,16 +1,16 @@
 {
-  "name": "my-blog-site",
+  "name": "steryn-blog-site",
   "type": "module",
   "version": "1.0.0",
-  "description": "我的代码笔记站点",
+  "description": "Steryn Blog Site",
   "packageManager": "pnpm@9.12.3",
-  "author": "JaylenLiu <jaylen.liu@biposervice.com>",
+  "author": "JaylenLiu <steryn@qq.com>",
   "license": "MIT",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs --port=7777",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",

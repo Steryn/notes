@@ -1,4 +1,4 @@
-import { defineClientConfig } from 'vuepress/client'
+import { defineClientConfig } from "vuepress/client";
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import CustomComponent from './theme/components/Custom.vue'
 
@@ -9,4 +9,4 @@ export default defineClientConfig({
     // app.component('RepoCard', RepoCard)
     // app.component('CustomComponent', CustomComponent)
   },
-})
+});

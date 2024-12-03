@@ -5,8 +5,8 @@ import { plumeTheme } from "vuepress-theme-plume";
 export default defineUserConfig({
   base: "/blog-code/",
   lang: "zh-CN",
-  title: "My Blog Site",
-  description: "我的代码笔记站点",
+  title: "Steryn Blog",
+  description: "我的代码笔记",
 
   bundler: viteBundler(),
 
@@ -29,7 +29,7 @@ export default defineUserConfig({
        * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
        */
       markdownEnhance: {
-        demo: true,
+        // demo: true,
         //   include: true,
         //   chart: true,
         //   echarts: true,
