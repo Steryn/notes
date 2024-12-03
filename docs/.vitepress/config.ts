@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
-  // base: "/blog-code/",
+  base: "/blog-code/",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
