@@ -15,6 +15,8 @@
     "vue": "^3.5.12"
   },
   "devDependencies": {
+    "naive-ui": "^2.40.3",
+    "sass": "^1.81.1",
     "vitepress": "^1.5.0",
     "vue-tsc": "^2.1.10"
   }
