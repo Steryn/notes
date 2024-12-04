@@ -1,8 +1,8 @@
 {
   "name": "vitepress-plugin-reading-time",
   "version": "0.1.0",
-  "description": "VitePress plugin to add reading time to your blog posts",
-  "homepage": "https://github.com/Steryn/blog-code",
+  "description": "Coding Notes",
+  "homepage": "https://github.com/Steryn/notes",
   "author": "Steryn",
   "type": "module",
   "scripts": {
