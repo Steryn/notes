@@ -1,6 +1,6 @@
 # autoUnloadWatch
 
-## 自动卸载watch，组件卸载自动取消{#Introduce}
+## 自动卸载watch，组件卸载自动取消{#Introduce} <badge type="tip" text="Stable" />
 
 参数同`watch`
 

@@ -1,20 +1,29 @@
 # useWatchStopHandle
 
-## 注册收集watch句柄，卸载自动取消{#Introduce}
+## 注册收集watch句柄，卸载自动取消{#Introduce} <badge type="warning" text="Test" />
 
 ```ts
 import { WatchStopHandle } from "vue";
 
-function useWatchStopHandle(isAutoUnload = true) {
-  const watchHandler = ref<WatchStopHandle | null>(null);
+export function useWatchStopHandle(
+  config: { isAutoUnload: boolean; startOnMounted: boolean } = {
+    isAutoUnload: true,
+    startOnMounted: true,
+  }
+) {
+  let watchHandler: WatchStopHandle | null = null;
 
-  const watchRegister = (handler: WatchStopHandle) => {
-    watchHandler.value = handler;
+  // TODO:这里考虑收集多个watch句柄，目前只收集一个，会被覆盖
+  const watchRegister = (handler: () => WatchStopHandle) => {
+    const handlerFn = () => {
+      watchHandler = handler();
+    };
+    config.startOnMounted ? onMounted(handlerFn) : handlerFn();
   };
 
   onUnmounted(() => {
-    if (!isAutoUnload) return;
-    watchHandler.value && watchHandler.value();
+    if (!config.isAutoUnload) return;
+    watchHandler && watchHandler();
   });
 
   return {
