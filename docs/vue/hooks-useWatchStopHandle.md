@@ -1,6 +1,6 @@
 # useWatchStopHandle
 
-## 注册收集watch句柄，卸载自动取消
+## 注册收集watch句柄，卸载自动取消{#Introduce}
 
 ```ts
 import { WatchStopHandle } from "vue";
@@ -24,7 +24,7 @@ function useWatchStopHandle(isAutoUnload = true) {
 }
 ```
 
-## 使用
+## 使用{#Usage}
 
 ```ts
 const { watchRegister } = useWatchStopHandle();

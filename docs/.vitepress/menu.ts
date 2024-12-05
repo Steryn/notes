@@ -30,6 +30,16 @@ export const sidebar_vue = [
       },
     ],
   },
+  {
+    text: "自定义",
+    items: [
+      {
+        items: [
+          { text: "autoUnloadWatch", link: "/vue/custom-autoUnloadWatch" },
+        ],
+      },
+    ],
+  },
 ];
 
 export const sidebar_other = [
