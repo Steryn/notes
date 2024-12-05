@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { menu, sidebar_vue, sidebar_other } from "./menu";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,27 +9,11 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "主页", link: "/" },
-      { text: "Vue", link: "/vue/README" },
-      // { text: "Angular", link: "/angular" },
-      // { text: "React", link: "/react" },
-      // {
-      //   text: "Others",
-      //   items: [{ text: "Example", link: "/markdown-examples" }],
-      // },
-    ],
-
-    sidebar: [
-      {
-        text: "Vue",
-        items: [
-          { text: "Readme", link: "/vue/README" },
-          { text: "Vue3", link: "/vue/vue3" },
-        ],
-      },
-    ],
-
+    nav: menu,
+    sidebar: {
+      "/vue/": sidebar_vue,
+      "/other/": sidebar_other,
+    },
     socialLinks: [{ icon: "github", link: "https://github.com/Steryn/notes" }],
     docFooter: {
       prev: "上一页",
