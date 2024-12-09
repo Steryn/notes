@@ -40,6 +40,14 @@ export const sidebar_vue = [
       },
     ],
   },
+  {
+    text: "Tips",
+    items: [
+      {
+        items: [{ text: "导出对象和数组", link: "/vue/ts-functionReload" }],
+      },
+    ],
+  },
 ];
 
 export const sidebar_other = [
