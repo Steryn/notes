@@ -26,6 +26,10 @@ export const sidebar_vue = [
       {
         items: [
           { text: "useWatchStopHandle", link: "/vue/hooks-useWatchStopHandle" },
+          {
+            text: "useResettableReactive",
+            link: "/vue/hooks-useResettableReactive",
+          },
         ],
       },
     ],
