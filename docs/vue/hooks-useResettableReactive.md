@@ -1,6 +1,8 @@
-# 重置可响应对象
+# useResettableReactive
 
 ## 定义 {#Definition}
+
+重置可响应对象
 
 ```ts
 import { reactive } from "vue";
@@ -30,7 +32,7 @@ function useResettableReactive<T extends object>(value: T) {
 ## 使用 {#Usage}
 
 ```ts
-const { state, reset } = useResettableReactive({ name: "zhang" });
+const [ state, reset ] = useResettableReactive({ name: "zhang" });
 
 reset();
 

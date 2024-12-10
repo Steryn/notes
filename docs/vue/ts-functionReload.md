@@ -1,17 +1,20 @@
 # ts 函数重载签名
 
-## 同时导出对象和数组
+## 定义 {#Definition}
 
 ```ts
-type ReturnData = [T,()=>void] &{state:T,reset:()=>void }
-
-export function useAnyFn():ReturnData{
-    const state = reactive({name:'zhang'})
-    const reset = ()=>{
-        Object.keys(state).forEach(key=>delete state[key])
-        Object.assign(state,value)
-    }
-    
-    return Object.assign([state,reset],{state,reset}) as unknown as ReturnData
+export function reload(val: string): string;
+export function reload(val: number): number;
+export function reload(val: boolean): boolean;
+export function reload(val: string | number | boolean): string | number | boolean {
+  return val;
 }
+```
+
+## 使用 {#Usage}
+
+```ts
+reload("123");
+reload(123);
+reload(true);
 ```

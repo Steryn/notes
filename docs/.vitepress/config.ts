@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
-import { menu, sidebar_vue, sidebar_other } from "./menu";
+import { menu, sidebar_other } from "./menu";
+import sidebar_vue from "./sidebar-vue";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,8 +12,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: menu,
     sidebar: {
-      "/vue/": sidebar_vue,
-      "/other/": sidebar_other,
+      "/vue/": {
+        base: "/vue/",
+        items: sidebar_vue,
+      },
+      "/other/": {
+        base: "/other/",
+        items: sidebar_other,
+      },
     },
     socialLinks: [{ icon: "github", link: "https://github.com/Steryn/notes" }],
     docFooter: {

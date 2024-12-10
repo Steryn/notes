@@ -12,51 +12,9 @@ export const menu = [
   },
 ];
 
-export const sidebar_vue = [
-  {
-    text: "起步",
-    link: "/vue/start",
-    // collapsed: false,
-    // items: [],
-  },
-  {
-    text: "Hooks",
-    // collapsed: false,
-    items: [
-      {
-        items: [
-          { text: "useWatchStopHandle", link: "/vue/hooks-useWatchStopHandle" },
-          {
-            text: "useResettableReactive",
-            link: "/vue/hooks-useResettableReactive",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    text: "自定义",
-    items: [
-      {
-        items: [
-          { text: "autoUnloadWatch", link: "/vue/custom-autoUnloadWatch" },
-        ],
-      },
-    ],
-  },
-  {
-    text: "Tips",
-    items: [
-      {
-        items: [{ text: "导出对象和数组", link: "/vue/ts-functionReload" }],
-      },
-    ],
-  },
-];
-
 export const sidebar_other = [
   {
     text: "其他",
-    items: [{ text: "工具函数", link: "/other/tool-function" }],
+    items: [{ text: "工具函数", link: "/tool-function" }],
   },
 ];

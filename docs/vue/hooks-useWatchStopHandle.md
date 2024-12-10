@@ -1,6 +1,8 @@
 # useWatchStopHandle
 
-## 注册收集watch句柄，卸载自动取消{#Introduce} <badge type="warning" text="Test" />
+## 定义 {#Definition} <badge type="warning" text="Test" />
+
+注册收集watch句柄，卸载自动取消
 
 ```ts
 import { WatchStopHandle } from "vue";
