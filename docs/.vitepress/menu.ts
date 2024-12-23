@@ -6,8 +6,10 @@ export const menu = [
   {
     text: "其他",
     items: [
-      { text: "工具函数", link: "/other/tool-function" },
-      { text: "Example", link: "/markdown-examples" },
+      { text: "工具站点收集", link: "/other/tool-site" },
+      { text: "高质量代码", link: "/other/high-quality-code" },
+      { text: "重构原则", link: "/other/refactoring-principle" },
+      // { text: "Example", link: "/markdown-examples" },
     ],
   },
 ];

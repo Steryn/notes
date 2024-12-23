@@ -16,10 +16,10 @@ export default defineConfig({
         base: "/vue/",
         items: sidebar_vue,
       },
-      "/other/": {
-        base: "/other/",
-        items: sidebar_other,
-      },
+      // "/other/": {
+      //   base: "/other/",
+      //   items: sidebar_other,
+      // },
     },
     socialLinks: [{ icon: "github", link: "https://github.com/Steryn/notes" }],
     docFooter: {
