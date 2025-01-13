@@ -9,6 +9,7 @@ export const menu = [
       { text: "工具站点收集", link: "/other/tool-site" },
       { text: "高质量代码", link: "/other/high-quality-code" },
       { text: "重构原则", link: "/other/refactoring-principle" },
+      { text: "脚本合集", link: "/other/any-scripts" },
       // { text: "Example", link: "/markdown-examples" },
     ],
   },
