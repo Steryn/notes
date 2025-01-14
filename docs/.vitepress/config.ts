@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
-import { menu, sidebar_other } from "./menu";
 import sidebar_vue from "./sidebar-vue";
+import sidebar_dy from "./sidebar-dy";
+import sidebar_inspiration from "./sidebar-inspiration";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -10,11 +11,36 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: menu,
+    nav: [
+      { text: "主页", link: "/", },
+      { text: "Vue", link: "/vue/start", activeMatch: '^/$|^/vue/' },
+      // { text: "Angular", link: "/angular" },
+      // { text: "React", link: "/react" },
+      { text: "Dy", link: '/dy/start', activeMatch: '^/$|^/dy/' },
+      { text: "灵感", link: '/inspiration/start', activeMatch: '^/$|^/inspiration/' },
+      {
+        text: "其他",
+        items: [
+          { text: "工具站点收集", link: "/other/tool-site" },
+          { text: "高质量代码", link: "/other/high-quality-code" },
+          { text: "重构原则", link: "/other/refactoring-principle" },
+          { text: "脚本合集", link: "/other/any-scripts" },
+          // { text: "Example", link: "/markdown-examples" },
+        ],
+      },
+    ],
     sidebar: {
       "/vue/": {
         base: "/vue/",
         items: sidebar_vue,
+      },
+      "/dy/": {
+        base: "/dy/",
+        items: sidebar_dy
+      },
+      "/inspiration/": {
+        base: "/inspiration/",
+        items: sidebar_inspiration,
       },
       // "/other/": {
       //   base: "/other/",

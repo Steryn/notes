@@ -19,6 +19,12 @@ export default [
     ]
   },
   {
+    "text": "Js",
+    "items": [
+      { "text": "js函数多态", "link": "js-polymorphism" },
+    ]
+  },
+  {
     "text": "Ts",
     "items": [
       { "text": "函数重载签名", "link": "ts-functionReload" },
