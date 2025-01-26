@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始 →
-      link: /markdown-examples
+      link: /vue/start
     - theme: alt
       text: 文章
       link: /api-examples

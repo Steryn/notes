@@ -8,7 +8,8 @@ export default [
   {
     "text": "HTML",
     "items": [
-      { "text": "类文件树样式", "link": "file-style" }
+      { "text": "类文件树样式", "link": "file-style" },
+      { "text": "bipo-svg", "link": "bipo-svg" }
     ]
   }
 ]
