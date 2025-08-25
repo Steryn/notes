@@ -21,7 +21,7 @@ export default [
   {
     "text": "Js",
     "items": [
-      { "text": "js函数多态", "link": "js-polymorphism" },
+      { "text": "函数多态", "link": "js-polymorphism" },
     ]
   },
   {

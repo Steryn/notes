@@ -1,4 +1,4 @@
-# 数字转中文函数
+# 数字转中文
 
 ```js
 function toChineseNumber(num) {

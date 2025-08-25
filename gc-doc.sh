@@ -4,6 +4,9 @@
 DOCS_DIR="./docs/vue"
 OUTPUT_FILE="./docs/.vitepress/sidebar-vue.ts"
 
+# DOCS_DIR="./docs/utils"
+# OUTPUT_FILE="./docs/.vitepress/sidebar-utils.ts"
+
 # 将字符串的首字母大写的函数
 capitalize() {
     echo "$1" | awk '{print toupper(substr($0,1,1)) substr($0,2)}'

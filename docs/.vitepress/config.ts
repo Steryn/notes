@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 import sidebar_vue from "./sidebar-vue";
-import sidebar_dy from "./sidebar-dy";
+import sidebar_utils from "./sidebar-utils";
 import sidebar_inspiration from "./sidebar-inspiration";
 
 // https://vitepress.dev/reference/site-config
@@ -16,7 +16,7 @@ export default defineConfig({
       { text: "Vue", link: "/vue/start", activeMatch: '^/$|^/vue/' },
       // { text: "Angular", link: "/angular" },
       // { text: "React", link: "/react" },
-      { text: "Dy", link: '/dy/start', activeMatch: '^/$|^/dy/' },
+      { text: "工具函数", link: '/utils/start', activeMatch: '^/$|^/utils/' },
       { text: "灵感", link: '/inspiration/start', activeMatch: '^/$|^/inspiration/' },
       {
         text: "其他",
@@ -34,9 +34,9 @@ export default defineConfig({
         base: "/vue/",
         items: sidebar_vue,
       },
-      "/dy/": {
-        base: "/dy/",
-        items: sidebar_dy
+      "/utils/": {
+        base: "/utils/",
+        items: sidebar_utils
       },
       "/inspiration/": {
         base: "/inspiration/",

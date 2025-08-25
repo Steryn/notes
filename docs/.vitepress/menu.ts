@@ -3,7 +3,7 @@ export const menu = [
   { text: "Vue", link: "/vue/start" },
   // { text: "Angular", link: "/angular" },
   // { text: "React", link: "/react" },
-  { text: "Dy", link: '/dy/start' },
+  { text: "工具函数", link: '/utils/start' },
   { text: "灵感", link: '/inspiration/start' },
   {
     text: "其他",
