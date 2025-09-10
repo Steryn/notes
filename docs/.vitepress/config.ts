@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import sidebar_vue from "./sidebar-vue";
 import sidebar_utils from "./sidebar-utils";
 import sidebar_inspiration from "./sidebar-inspiration";
+import menu from "./menu";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,28 +12,7 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "主页", link: "/" },
-      { text: "Vue", link: "/vue/start", activeMatch: "^/$|^/vue/" },
-      // { text: "Angular", link: "/angular" },
-      // { text: "React", link: "/react" },
-      { text: "工具函数", link: "/utils/start", activeMatch: "^/$|^/utils/" },
-      {
-        text: "灵感",
-        link: "/inspiration/start",
-        activeMatch: "^/$|^/inspiration/",
-      },
-      {
-        text: "其他",
-        items: [
-          { text: "工具站点收集", link: "/other/tool-site" },
-          { text: "高质量代码", link: "/other/high-quality-code" },
-          { text: "重构原则", link: "/other/refactoring-principle" },
-          { text: "脚本合集", link: "/other/any-scripts" },
-          { text: "git 常用命令", link: "/other/git" },
-        ],
-      },
-    ],
+    nav: menu,
     sidebar: {
       "/vue/": {
         base: "/vue/",
@@ -54,6 +34,7 @@ export default defineConfig({
             items: [
               { text: "重置克隆镜像", link: "/git" },
               { text: "代理镜像地址", link: "/git-proxy" },
+              { text: "ip 查询地址", link: "/ip-search" },
             ],
           },
         ],

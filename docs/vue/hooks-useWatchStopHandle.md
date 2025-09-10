@@ -2,7 +2,7 @@
 
 ## 定义 {#Definition} <badge type="warning" text="Test" />
 
-注册收集watch句柄，卸载自动取消
+注册收集 watch 句柄，卸载自动取消
 
 ```ts
 import { WatchStopHandle } from "vue";
@@ -35,17 +35,17 @@ export function useWatchStopHandle(
 }
 ```
 
-## 使用{#Usage}
+## 使用 {#Usage}
 
 ```ts
 const { watchRegister } = useWatchStopHandle();
-  watchRegister(
-    // 基础的watch写法
-    watch(
-      () => xxx,
-      (val) => {
-        // do something
-      }
-    )
-  );
+watchRegister(
+  // 基础的watch写法
+  watch(
+    () => xxx,
+    (val) => {
+      // do something
+    }
+  )
+);
 ```
