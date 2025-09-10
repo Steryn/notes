@@ -9,7 +9,7 @@ export default [
     "text": "HTML",
     "items": [
       { "text": "类文件树样式", "link": "file-style" },
-      { "text": "bipo-svg", "link": "bipo-svg" }
+      { "text": "粒子效果", "link": "vanta" }
     ]
   }
 ]

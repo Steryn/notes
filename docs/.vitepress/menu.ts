@@ -12,6 +12,7 @@ export const menu = [
       { text: "高质量代码", link: "/other/high-quality-code" },
       { text: "重构原则", link: "/other/refactoring-principle" },
       { text: "脚本合集", link: "/other/any-scripts" },
+      { text: "git 常用命令", link: "/other/git" },
       // { text: "Example", link: "/markdown-examples" },
     ],
   },
