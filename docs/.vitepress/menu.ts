@@ -2,6 +2,7 @@ export default [
   { text: "主页", link: "/" },
   { text: "Vue", link: "/vue/start", activeMatch: "^/$|^/vue/" },
   { text: "Angular", link: "/angular/start", activeMatch: "^/$|^/angular/" },
+  { text: "NodeJS", link: "/nodejs/start", activeMatch: "^/$|^/nodejs/" },
   // { text: "React", link: "/react" },
   { text: "工具函数", link: "/utils/start", activeMatch: "^/$|^/utils/" },
   {

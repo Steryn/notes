@@ -3,6 +3,7 @@ import sidebar_vue from "./sidebar-vue";
 import sidebar_utils from "./sidebar-utils";
 import sidebar_angular from "./sidebar-angular";
 import sidebar_inspiration from "./sidebar-inspiration";
+import sidebar_nodejs from "./sidebar-nodejs";
 import menu from "./menu";
 
 // https://vitepress.dev/reference/site-config
@@ -22,6 +23,10 @@ export default defineConfig({
       "/angular/": {
         base: "/angular/",
         items: sidebar_angular,
+      },
+      "/nodejs/": {
+        base: "/nodejs/",
+        items: sidebar_nodejs,
       },
       "/utils/": {
         base: "/utils/",
