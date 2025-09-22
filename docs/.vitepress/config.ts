@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import sidebar_vue from "./sidebar-vue";
 import sidebar_utils from "./sidebar-utils";
+import sidebar_angular from "./sidebar-angular";
 import sidebar_inspiration from "./sidebar-inspiration";
 import menu from "./menu";
 
@@ -17,6 +18,10 @@ export default defineConfig({
       "/vue/": {
         base: "/vue/",
         items: sidebar_vue,
+      },
+      "/angular/": {
+        base: "/angular/",
+        items: sidebar_angular,
       },
       "/utils/": {
         base: "/utils/",
