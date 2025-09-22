@@ -26,19 +26,19 @@ export default defineConfig({
         base: "/inspiration/",
         items: sidebar_inspiration,
       },
-      "/other/": {
-        base: "/other/",
-        items: [
-          {
-            text: "Git常用命令",
-            items: [
-              { text: "重置克隆镜像", link: "/git" },
-              { text: "代理镜像地址", link: "/git-proxy" },
-              { text: "ip 查询地址", link: "/ip-search" },
-            ],
-          },
-        ],
-      },
+      // "/other/": {
+      //   base: "/other/",
+      //   items: [
+      //     {
+      //       text: "Git常用命令",
+      //       items: [
+      //         { text: "重置克隆镜像", link: "/git/reset-mirror" },
+      //         { text: "代理镜像地址", link: "/git/proxy-address" },
+      //         { text: "ip 查询地址", link: "/git/ip-search" },
+      //       ],
+      //     },
+      //   ],
+      // },
     },
     socialLinks: [{ icon: "github", link: "https://github.com/Steryn/notes" }],
     docFooter: {

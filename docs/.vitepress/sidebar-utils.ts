@@ -1,10 +1,10 @@
 export default [
-  {
-    "text": "起步",
-    "items": [
-      { "text": "Start", "link": "start" }
-    ]
-  },
+  // {
+  //   "text": "起步",
+  //   "items": [
+  //     { "text": "Start", "link": "start" }
+  //   ]
+  // },
   {
     "text": "Array",
     "items": [
