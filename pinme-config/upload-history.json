@@ -1,0 +1,28 @@
+{
+  "uploads": [
+    {
+      "timestamp": 1758611887813,
+      "date": "2025-09-23 15:18:07",
+      "path": "/Users/siyu/Scope/notes/files/file-style.html",
+      "filename": "file-style.html",
+      "contentHash": "bafkreidsau3bsaiswbycepgg2mvqpmfxlzw3h3xdtyfkk5udcpm74wuq7m",
+      "previewHash": null,
+      "size": 3291,
+      "fileCount": 1,
+      "type": "file",
+      "shortUrl": "m74wuq7m"
+    },
+    {
+      "timestamp": 1758611772587,
+      "date": "2025-09-23 15:16:12",
+      "path": "/Users/siyu/Scope/notes/files/vanta.html",
+      "filename": "vanta.html",
+      "contentHash": "bafkreicuh3xxwln6gfonx64dgcaxccsnlggtccdifarqravktsbo54st4y",
+      "previewHash": null,
+      "size": 6201,
+      "fileCount": 1,
+      "type": "file",
+      "shortUrl": "bo54st4y"
+    }
+  ]
+}
