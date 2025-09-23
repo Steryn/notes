@@ -94,7 +94,7 @@
 
 ### 第五阶段：高级主题 (05-advanced)
 
-- [高级主题总览](./05-advanced/README.md)
+- [高级主题总览](./05-advanced/advanced/README.md)
 - [性能优化与监控](./05-advanced/performance/README.md)
 - [微服务架构](./05-advanced/microservices/README.md)
 - [数据库高级应用](./05-advanced/database/README.md)

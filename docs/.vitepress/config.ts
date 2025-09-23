@@ -4,6 +4,7 @@ import sidebar_utils from "./sidebar-utils";
 import sidebar_angular from "./sidebar-angular";
 import sidebar_inspiration from "./sidebar-inspiration";
 import sidebar_nodejs from "./sidebar-nodejs";
+import sidebar_nodejs_advanced from "./sidebar-nodejs-advanced";
 import menu from "./menu";
 
 // https://vitepress.dev/reference/site-config
@@ -27,6 +28,10 @@ export default defineConfig({
       "/nodejs/": {
         base: "/nodejs/",
         items: sidebar_nodejs,
+      },
+      "/nodejs/05-advanced/": {
+        base: "/nodejs/",
+        items: sidebar_nodejs_advanced,
       },
       "/utils/": {
         base: "/utils/",

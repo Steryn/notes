@@ -2,7 +2,15 @@ export default [
   { text: "主页", link: "/" },
   { text: "Vue", link: "/vue/start", activeMatch: "^/$|^/vue/" },
   { text: "Angular", link: "/angular/start", activeMatch: "^/$|^/angular/" },
-  { text: "NodeJS", link: "/nodejs/start", activeMatch: "^/$|^/nodejs/" },
+  {
+    text: "NodeJS",
+    // link: "/nodejs/start", 
+    activeMatch: "^/$|^/nodejs/",
+    items: [
+      { text: "基础阶段", link: "/nodejs/start" },
+      { text: "高级主题", link: "/nodejs/05-advanced/performance/README" },
+    ]
+  },
   // { text: "React", link: "/react" },
   { text: "工具函数", link: "/utils/start", activeMatch: "^/$|^/utils/" },
   {

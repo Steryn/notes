@@ -74,38 +74,6 @@ export default [
           { "text": "安全头设置", "link": "04-auth/security-headers" },
         ]
       },
-      {
-        "text": "高级主题", "link": "05-advanced/README", items: [
-          { "text": "性能优化与监控", "link": "05-advanced/performance/README" },
-          { "text": "微服务架构", "link": "05-advanced/microservices/README" },
-          {
-            "text": "数据库高级应用", "link": "05-advanced/database/README", items: [
-              { "text": "连接池基础", "link": "05-advanced/database/connection-pooling-basics" },
-              { "text": "连接池配置", "link": "05-advanced/database/connection-pool-config" },
-              { "text": "连接池监控", "link": "05-advanced/database/connection-pool-monitoring" },
-              { "text": "连接池优化", "link": "05-advanced/database/connection-pool-optimization" },
-              { "text": "查询分析", "link": "05-advanced/database/query-analysis" },
-              { "text": "索引优化", "link": "05-advanced/database/index-optimization" },
-              { "text": "查询重写", "link": "05-advanced/database/query-rewriting" },
-              { "text": "性能调优", "link": "05-advanced/database/performance-tuning" },
-              { "text": "缓存基础", "link": "05-advanced/database/caching-basics" },
-              { "text": "Redis使用", "link": "05-advanced/database/redis-usage" },
-              { "text": "缓存模式", "link": "05-advanced/database/caching-patterns" },
-              { "text": "缓存一致性", "link": "05-advanced/database/cache-consistency" },
-              { "text": "迁移策略", "link": "05-advanced/database/migration-strategies" },
-              { "text": "数据同步", "link": "05-advanced/database/data-synchronization" },
-              { "text": "版本控制", "link": "05-advanced/database/version-control" },
-              { "text": "回滚机制", "link": "05-advanced/database/rollback-mechanisms" },
-            ]
-          },
-          { "text": "安全与认证", "link": "05-advanced/security/README" },
-          { "text": "测试与质量保证", "link": "05-advanced/testing/README" },
-          { "text": "DevOps与CI/CD", "link": "05-advanced/devops/README" },
-          { "text": "高级Node.js特性", "link": "05-advanced/advanced/README" },
-          { "text": "云原生开发", "link": "05-advanced/cloud/README" },
-          { "text": "企业级应用", "link": "05-advanced/enterprise/README" },
-        ]
-      },
     ]
   }
 ]

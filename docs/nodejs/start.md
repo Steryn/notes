@@ -34,30 +34,30 @@
 #### 第三阶段：数据库操作
 
 11. [数据库基础概念](./03-database/README.md)
-12. [MongoDB和Mongoose](./03-database/mongodb.md)
-13. [MySQL和Sequelize](./03-database/mysql.md)
+12. [MongoDB和Mongoose](./03-database/mongodb-basics.md)
+13. [MySQL和Sequelize](./03-database/mysql-basics.md)
 14. [数据库连接池](./03-database/connection-pool.md)
 15. [数据验证和迁移](./03-database/validation.md)
 
 #### 第四阶段：用户认证和安全
 
 16. [用户认证基础](./04-auth/README.md)
-17. [JWT令牌认证](./04-auth/jwt.md)
-18. [密码加密和验证](./04-auth/password.md)
-19. [会话管理](./04-auth/sessions.md)
-20. [API安全最佳实践](./04-auth/security.md)
+17. [JWT令牌认证](./04-auth/jwt-basics.md)
+18. [密码加密和验证](./04-auth/password-encryption.md)
+19. [会话管理](./04-auth/session-basics.md)
+20. [API安全最佳实践](./04-auth/api-security-basics.md)
 
 #### 第五阶段：高级主题
 
-21. [性能优化与监控](../05-advanced/performance.md)
-22. [微服务架构](../05-advanced/microservices.md)
-23. [数据库高级应用](../05-advanced/database.md)
-24. [安全与认证](../05-advanced/security.md)
-25. [测试与质量保证](../05-advanced/testing.md)
-26. [DevOps与CI/CD](../05-advanced/devops.md)
-27. [高级Node.js特性](../05-advanced/advanced.md)
-28. [云原生开发](../05-advanced/cloud.md)
-29. [企业级应用](../05-advanced/enterprise.md)
+21. [性能优化与监控](./05-advanced/performance/README.md)
+22. [微服务架构](./05-advanced/microservices/README.md)
+23. [数据库高级应用](./05-advanced/database/README.md)
+24. [安全与认证](./05-advanced/security/README.md)
+25. [测试与质量保证](./05-advanced/testing/README.md)
+26. [DevOps与CI/CD](./05-advanced/devops/README.md)
+27. [高级Node.js特性](./05-advanced/advanced/README.md)
+28. [云原生开发](./05-advanced/cloud/README.md)
+29. [企业级应用](./05-advanced/enterprise/README.md)
 
 ### 🛠️ 实践项目
 
