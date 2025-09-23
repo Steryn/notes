@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import sidebar_vue from "./sidebar-vue";
 import sidebar_utils from "./sidebar-utils";
 import sidebar_angular from "./sidebar-angular";
+import sidebar_docker from "./sidebar-docker";
 import sidebar_inspiration from "./sidebar-inspiration";
 import sidebar_nodejs from "./sidebar-nodejs";
 import sidebar_nodejs_advanced from "./sidebar-nodejs-advanced";
@@ -32,6 +33,10 @@ export default defineConfig({
       "/nodejs/05-advanced/": {
         base: "/nodejs/",
         items: sidebar_nodejs_advanced,
+      },
+      "/docker/": {
+        base: "/docker/",
+        items: sidebar_docker,
       },
       "/utils/": {
         base: "/utils/",

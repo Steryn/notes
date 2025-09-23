@@ -11,6 +11,11 @@ export default [
       { text: "高级主题", link: "/nodejs/05-advanced/performance/README" },
     ]
   },
+  {
+    text: "Docker",
+    link: "/docker/start",
+    activeMatch: "^/$|^/docker/",
+  },
   // { text: "React", link: "/react" },
   { text: "工具函数", link: "/utils/start", activeMatch: "^/$|^/utils/" },
   {

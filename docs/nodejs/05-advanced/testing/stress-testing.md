@@ -14,6 +14,7 @@
 ## ⚡ 压力测试基础概念
 
 ### 压力测试类型
+
 ```mermaid
 graph TB
     A[压力测试类型] --> B[负载压力测试<br/>Load Stress Testing]
@@ -36,6 +37,7 @@ graph TB
 ```
 
 ### 压力测试指标
+
 ```javascript
 const StressTestingMetrics = {
   BREAKING_POINT: {
@@ -97,6 +99,7 @@ const StressTestingMetrics = {
 ## 🛠 压力测试工具和实现
 
 ### Artillery.js 高强度压力测试
+
 ```javascript
 // artillery-stress-config.yml
 config:
@@ -240,6 +243,7 @@ functions:
 ```
 
 ### K6 极限压力测试
+
 ```javascript
 // k6-stress-test.js
 import http from 'k6/http';
@@ -563,6 +567,7 @@ export function teardown(data) {
 ```
 
 ### Node.js 内存压力测试
+
 ```javascript
 // memory-stress-test.js
 const { Worker, isMainThread, parentPort, workerData } = require('worker_threads');
@@ -981,6 +986,7 @@ module.exports = MemoryStressTest;
 ## 🔧 压力测试场景设计
 
 ### 真实业务场景压力测试
+
 ```javascript
 // real-world-stress-scenarios.js
 const axios = require('axios');
@@ -1410,6 +1416,7 @@ module.exports = RealWorldStressScenarios;
 ## 📝 压力测试最佳实践
 
 ### 环境准备和监控
+
 ```javascript
 const StressTestingBestPractices = {
   ENVIRONMENT_PREPARATION: {
