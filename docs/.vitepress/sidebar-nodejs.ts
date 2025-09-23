@@ -30,48 +30,82 @@ export default [
       },
       {
         "text": "数据库操作", "link": "03-database/README", items: [
-          { "text": "数据库基础", "link": "03-database/README" },
-          { "text": "数据库基础概念", "link": "03-database/database-basics" },
-          { "text": "连接管理", "link": "03-database/connection-management" },
-          { "text": "查询优化", "link": "03-database/query-optimization" },
-          { "text": "事务处理", "link": "03-database/transactions" },
-          { "text": "MongoDB基础", "link": "03-database/mongodb-basics" },
-          { "text": "文档操作", "link": "03-database/document-operations" },
-          { "text": "聚合查询", "link": "03-database/aggregation" },
-          { "text": "索引优化", "link": "03-database/indexing" },
-          { "text": "MySQL基础", "link": "03-database/mysql-basics" },
-          { "text": "表设计", "link": "03-database/table-design" },
-          { "text": "SQL查询", "link": "03-database/sql-queries" },
-          { "text": "性能优化", "link": "03-database/performance" },
-          { "text": "Mongoose使用", "link": "03-database/mongoose" },
-          { "text": "Sequelize使用", "link": "03-database/sequelize" },
-          { "text": "TypeORM使用", "link": "03-database/typeorm" },
-          { "text": "数据验证", "link": "03-database/validation" },
+          {
+            "text": "基础概念", "link": "03-database/README", items: [
+              { "text": "数据库基础概念", "link": "03-database/database-basics" },
+              { "text": "连接管理", "link": "03-database/connection-management" },
+              { "text": "查询优化", "link": "03-database/query-optimization" },
+              { "text": "事务处理", "link": "03-database/transactions" },
+            ]
+          },
+          {
+            "text": "MongoDB", "link": "03-database/mongodb-basics", items: [
+              { "text": "MongoDB基础", "link": "03-database/mongodb-basics" },
+              { "text": "文档操作", "link": "03-database/document-operations" },
+              { "text": "聚合查询", "link": "03-database/aggregation" },
+              { "text": "索引优化", "link": "03-database/indexing" },
+            ]
+          },
+          {
+            "text": "MySQL", "link": "03-database/mysql-basics", items: [
+              { "text": "MySQL基础", "link": "03-database/mysql-basics" },
+              { "text": "表设计", "link": "03-database/table-design" },
+              { "text": "SQL查询", "link": "03-database/sql-queries" },
+              { "text": "性能优化", "link": "03-database/performance" },
+            ]
+          },
+          {
+            "text": "ORM框架", "link": "03-database/mongoose", items: [
+              { "text": "Mongoose使用", "link": "03-database/mongoose" },
+              { "text": "Sequelize使用", "link": "03-database/sequelize" },
+              { "text": "TypeORM使用", "link": "03-database/typeorm" },
+              { "text": "数据验证", "link": "03-database/validation" },
+            ]
+          },
         ]
       },
       {
         "text": "认证授权", "link": "04-auth/README", items: [
-          { "text": "认证基础", "link": "04-auth/README" },
-          { "text": "认证概念", "link": "04-auth/authentication-basics" },
-          { "text": "授权机制", "link": "04-auth/authorization" },
-          { "text": "安全策略", "link": "04-auth/security-policies" },
-          { "text": "权限控制", "link": "04-auth/access-control" },
-          { "text": "JWT基础", "link": "04-auth/jwt-basics" },
-          { "text": "令牌生成", "link": "04-auth/jwt-token-generation" },
-          { "text": "令牌验证", "link": "04-auth/jwt-token-validation" },
-          { "text": "令牌刷新", "link": "04-auth/jwt-token-refresh" },
-          { "text": "密码加密", "link": "04-auth/password-encryption" },
-          { "text": "哈希算法", "link": "04-auth/hashing-algorithms" },
-          { "text": "盐值使用", "link": "04-auth/salt-usage" },
-          { "text": "密码策略", "link": "04-auth/password-policies" },
-          { "text": "会话基础", "link": "04-auth/session-basics" },
-          { "text": "会话存储", "link": "04-auth/session-storage" },
-          { "text": "会话安全", "link": "04-auth/session-security" },
-          { "text": "会话过期", "link": "04-auth/session-expiration" },
-          { "text": "API安全基础", "link": "04-auth/api-security-basics" },
-          { "text": "输入验证", "link": "04-auth/input-validation" },
-          { "text": "CORS配置", "link": "04-auth/cors-configuration" },
-          { "text": "安全头设置", "link": "04-auth/security-headers" },
+          {
+            "text": "认证基础", "link": "04-auth/README", items: [
+              { "text": "认证概念", "link": "04-auth/authentication-basics" },
+              { "text": "授权机制", "link": "04-auth/authorization" },
+              { "text": "安全策略", "link": "04-auth/security-policies" },
+              { "text": "权限控制", "link": "04-auth/access-control" },
+            ]
+          },
+          {
+            "text": "JWT令牌", "link": "04-auth/jwt-basics", items: [
+              { "text": "JWT基础", "link": "04-auth/jwt-basics" },
+              { "text": "令牌生成", "link": "04-auth/jwt-token-generation" },
+              { "text": "令牌验证", "link": "04-auth/jwt-token-validation" },
+              { "text": "令牌刷新", "link": "04-auth/jwt-token-refresh" },
+            ]
+          },
+          {
+            "text": "密码安全", "link": "04-auth/password-encryption", items: [
+              { "text": "密码加密", "link": "04-auth/password-encryption" },
+              { "text": "哈希算法", "link": "04-auth/hashing-algorithms" },
+              { "text": "盐值使用", "link": "04-auth/salt-usage" },
+              { "text": "密码策略", "link": "04-auth/password-policies" },
+            ]
+          },
+          {
+            "text": "会话管理", "link": "04-auth/session-basics", items: [
+              { "text": "会话基础", "link": "04-auth/session-basics" },
+              { "text": "会话存储", "link": "04-auth/session-storage" },
+              { "text": "会话安全", "link": "04-auth/session-security" },
+              { "text": "会话过期", "link": "04-auth/session-expiration" },
+            ]
+          },
+          {
+            "text": "API安全", "link": "04-auth/api-security-basics", items: [
+              { "text": "API安全基础", "link": "04-auth/api-security-basics" },
+              { "text": "输入验证", "link": "04-auth/input-validation" },
+              { "text": "CORS配置", "link": "04-auth/cors-configuration" },
+              { "text": "安全头设置", "link": "04-auth/security-headers" },
+            ]
+          },
         ]
       },
     ]
