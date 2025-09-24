@@ -447,4 +447,4 @@ export class AppModule { }
 - 列表渲染
 - 表单处理
 
-接下来请学习[03-组件与模板](./../03-components-templates/README.md)来深入了解Angular的组件系统。
+接下来请学习[03-组件与模板](../../03-components-templates/README.md)来深入了解Angular的组件系统。

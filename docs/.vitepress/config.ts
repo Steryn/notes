@@ -7,13 +7,30 @@ import sidebar_inspiration from "./sidebar-inspiration";
 import sidebar_nodejs from "./sidebar-nodejs";
 import sidebar_nodejs_advanced from "./sidebar-nodejs-advanced";
 import menu from "./menu";
+import viteCompression from 'vite-plugin-compression';
+import { visualizer } from 'rollup-plugin-visualizer';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    build: {
+      chunkSizeWarningLimit: 500,
+      rollupOptions: {
+        plugins: [visualizer({ open: true })],
+      },
+    },
+    plugins: [
+      viteCompression({
+        algorithm: 'brotliCompress', // 或 gzip
+      })
+    ]
+  },
   title: "Coding Notes",
   description: "A VitePress Site",
   base: "/notes/",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  metaChunk: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: menu,
@@ -84,4 +101,5 @@ export default defineConfig({
       provider: "local",
     },
   },
+
 });

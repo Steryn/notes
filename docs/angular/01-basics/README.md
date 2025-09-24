@@ -107,7 +107,7 @@ my-angular-app/
 1. 安装Node.js和npm
 2. 全局安装Angular CLI
 3. 创建名为`hello-angular`的新项目
-4. 启动开发服务器并访问<http://localhost:4200>
+4. 启动开发服务器并访问`<http://localhost:4200>`
 
 ### 练习2：项目结构探索
 

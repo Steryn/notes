@@ -34,10 +34,12 @@ public/ ├── images/ │ ├── logo.png │ └── background.jpg �
 
 访问路径如下：
 
+```javascript
 - <http://localhost:3000/images/logo.png>
 - <http://localhost:3000/css/style.css>
 - <http://localhost:3000/js/main.js>
 - <http://localhost:3000/index.html>
+```
 
 ### 多个静态资源目录
 

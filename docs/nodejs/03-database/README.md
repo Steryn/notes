@@ -54,6 +54,6 @@
 完成数据库学习后，继续学习：
 
 - [认证授权](../04-auth/README.md)
-- [高级主题](../05-advanced/README.md)
+- [高级主题](../05-advanced/advanced/README.md)
 
 继续学习，掌握数据库操作技能！🚀

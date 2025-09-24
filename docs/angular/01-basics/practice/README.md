@@ -62,7 +62,7 @@ ng serve --port 4201
 
 ### 步骤5：查看应用
 
-1. 打开浏览器访问 <http://localhost:4200>
+1. 打开浏览器访问 `<http://localhost:4200>`
 2. 您应该看到Angular的欢迎页面
 3. 尝试修改 `src/app/app.component.html` 文件
 4. 观察浏览器中的实时更新
@@ -149,4 +149,4 @@ p {
 
 ## 🎉 恭喜
 
-您已经成功创建了第一个Angular应用！接下来请学习[02-第一个Angular应用](./../02-first-app/README.md)来深入了解Angular的核心概念。
+您已经成功创建了第一个Angular应用！接下来请学习[02-第一个Angular应用](../../02-first-app/README.md)来深入了解Angular的核心概念。

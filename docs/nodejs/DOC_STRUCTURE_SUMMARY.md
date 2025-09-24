@@ -44,7 +44,7 @@
 
 - [Express基础](./02-express/README.md)
 - [路由和中间件](./02-express/routing-middleware.md)
-- [请求处理/响应处理](./02-express/requests-responses.md)
+- [请求处理/响应处理](./02-express/request-response.md)
 - [静态文件服务](./02-express/static-files.md)
 - [错误处理](./02-express/error-handling.md)
 
@@ -109,16 +109,16 @@
 
 ### 基础实践项目
 
-- [前端应用](./practise/frontend-app/) - Vue3 + Vite + TypeScript
+<!-- - [前端应用](./practise/frontend-app/) - Vue3 + Vite + TypeScript
 - [后端API](./practise/backend-api/) - Node.js + Express + JWT
-- [项目说明](./practise/README.md) - 完整项目介绍
+- [项目说明](./practise/README.md) - 完整项目介绍 -->
 
 ### 高级主题实践
 
-- [性能优化示例](./practise/advanced-examples/performance-optimization/) - 内存分析、CPU分析
+<!-- - [性能优化示例](./practise/advanced-examples/performance-optimization/) - 内存分析、CPU分析
 - [微服务示例](./practise/advanced-examples/microservices/) - 服务拆分、服务发现
 - [安全实践示例](./practise/advanced-examples/security-practices/) - 认证系统、数据加密
-- [启动脚本](./practise/advanced-examples/start-all.js) - 一键启动所有示例
+- [启动脚本](./practise/advanced-examples/start-all.js) - 一键启动所有示例 -->
 
 ## 📚 文件命名规范
 
@@ -161,20 +161,20 @@
 
 #### 开始学习
 
-1. [主学习指南](./README.md) - 完整学习路径
+1. [主学习指南](./start.md) - 完整学习路径
 2. [基础概念](./01-basics/README.md) - 从零开始
-3. [实践项目](./practise/README.md) - 动手实践
+<!-- 3. [实践项目](./practise/README.md) - 动手实践 -->
 
 #### 按阶段学习
 
-- **新手入门**: [01-basics](./01-basics/) → [02-express](./02-express/)
-- **进阶开发**: [03-database](./03-database/) → [04-auth](./04-auth/)
-- **高级主题**: [05-advanced](./05-advanced/) - 选择感兴趣的方向
+- **新手入门**: [01-basics](./01-basics/README.md) → [02-express](./02-express/README.md)
+- **进阶开发**: [03-database](./03-database/README.md) → [04-auth](./04-auth/README.md)
+- **高级主题**: [05-advanced] - 选择感兴趣的方向
 
-#### 实践项目
+<!-- #### 实践项目
 
 - **基础项目**: [前端应用](./practise/frontend-app/) + [后端API](./practise/backend-api/)
-- **高级示例**: [性能优化](./practise/advanced-examples/performance-optimization/) + [微服务](./practise/advanced-examples/microservices/) + [安全实践](./practise/advanced-examples/security-practices/)
+- **高级示例**: [性能优化](./practise/advanced-examples/performance-optimization/) + [微服务](./practise/advanced-examples/microservices/) + [安全实践](./practise/advanced-examples/security-practices/) -->
 
 ### 学习顺序
 

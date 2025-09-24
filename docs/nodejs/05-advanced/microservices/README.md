@@ -109,13 +109,3 @@ module.exports = UserService;
 3. **服务发现**：服务注册与发现的实现
 4. **API网关**：统一入口和路由管理
 5. **服务启动**：微服务集群的启动和管理
-
-## 🔗 下一步
-
-接下来我们将学习：
-
-- [服务通信](./communication.md)
-- [容器化部署](./containerization.md)
-- [服务网格](./service-mesh.md)
-
-继续学习，掌握微服务架构的核心技能！🚀

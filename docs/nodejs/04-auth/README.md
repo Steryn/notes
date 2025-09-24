@@ -60,6 +60,6 @@
 
 完成认证授权学习后，继续学习：
 
-- [高级主题](../05-advanced/README.md)
+- [高级主题](../05-advanced/advanced/README.md)
 
 继续学习，掌握认证授权技能！🚀

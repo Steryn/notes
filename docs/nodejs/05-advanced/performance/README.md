@@ -109,13 +109,3 @@ module.exports = PerformanceProfiler;
 2. **内存泄漏检测**：如何识别和解决内存泄漏
 3. **CPU性能分析**：CPU使用情况的分析方法
 4. **基准测试**：性能测试和比较的方法
-
-## 🔗 下一步
-
-接下来我们将学习：
-
-- [内存管理](./memory.md)
-- [并发与异步优化](./concurrency.md)
-- [监控与日志](../monitoring/README.md)
-
-继续学习，掌握Node.js性能优化的核心技能！🚀

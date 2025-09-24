@@ -132,13 +132,3 @@ module.exports = SecurityValidator;
 2. **认证授权**：JWT令牌和权限控制
 3. **数据加密**：敏感数据保护
 4. **安全配置**：HTTP安全头设置
-
-## 🔗 下一步
-
-接下来我们将学习：
-
-- [高级认证](./authentication.md)
-- [加密与密钥管理](./encryption.md)
-- [API安全](./api-security.md)
-
-继续学习，掌握Node.js安全防护技能！🚀
