@@ -47,7 +47,7 @@ jobs:
         run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         # 提升 Node 内存再执行构建
-        run: NODE_OPTIONS="--max-old-space-size=4096" npm run build
+        run: NODE_OPTIONS="--max-old-space-size=4096" npm run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
