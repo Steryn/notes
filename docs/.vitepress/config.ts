@@ -21,7 +21,7 @@ export default defineConfig({
     },
     plugins: [
       viteCompression({
-        algorithm: 'brotliCompress', // 或 gzip
+        algorithm: 'gzip', // 或 gzip
       })
     ]
   },
