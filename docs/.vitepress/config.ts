@@ -6,6 +6,7 @@ import sidebar_docker from "./sidebar-docker";
 import sidebar_inspiration from "./sidebar-inspiration";
 import sidebar_nodejs from "./sidebar-nodejs";
 import sidebar_nodejs_advanced from "./sidebar-nodejs-advanced";
+import sidebar_mongodb from "./sidebar-mongodb";
 import menu from "./menu";
 import viteCompression from 'vite-plugin-compression';
 import { visualizer } from 'rollup-plugin-visualizer';
@@ -63,6 +64,10 @@ export default defineConfig({
         base: "/inspiration/",
         items: sidebar_inspiration,
       },
+      "/mongoDB/": {
+        base: "/mongoDB/",
+        items: sidebar_mongodb,
+      },
       // "/other/": {
       //   base: "/other/",
       //   items: [
@@ -100,6 +105,5 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-  },
-
+  }
 });

@@ -16,6 +16,11 @@ export default [
     link: "/docker/start",
     activeMatch: "^/$|^/docker/",
   },
+  {
+    text: "MongoDB",
+    link: "/mongoDB/start",
+    activeMatch: "^/$|^/mongoDB/",
+  },
   // { text: "React", link: "/react" },
   { text: "工具函数", link: "/utils/start", activeMatch: "^/$|^/utils/" },
   {
